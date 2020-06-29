@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+}
+.pacman{
+    width: 50px;
+    height: 50px;
+    background-size:  60 px url(https://i.dlpng.com/static/png/4734854-pac-man-png-download-768768-free-transparent-pacman-png-download-pac-man-png-900_780_preview.png);
+}
+body > div{
+    margin: 120px;
+    text-align: center;
+}
