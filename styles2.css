@@ -1,0 +1,86 @@
+.wall {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSN0mFc2bJBY_TYlhmE1-9sXx9mJ_EfSVJLmw&usqp=CAU);
+    display: inline-block;
+}
+.coin1 {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://i.ya-webdesign.com/images/dot-transparent-pac-man-8.png);
+    display: inline-block;
+    background-size: cover;
+}
+.coin2 {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://i.ya-webdesign.com/images/dot-transparent-pac-man-8.png);
+    display: inline-block;
+    background-size: cover;
+}
+.coin3 {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://i.ya-webdesign.com/images/dot-transparent-pac-man-8.png);
+    display: inline-block;
+    background-size: cover;
+}
+
+.ground {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: inline-block;
+}
+
+.ghostBlue {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQobHzQ76NJO0GoyovIMSGFpDCIl71zBwzgg&usqp=CAU);
+    display: inline-block;
+    background-size: cover;
+}
+
+.ghostRed {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQuxqoFg14Fye4Wvyn7jkl33nzOOffFfIZzFA&usqp=CAU);
+    display: inline-block;
+    background-size: cover;
+}
+
+.ghostYellow {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTIT2PxCrcg8VdhXr_CP0-R9L1IcShLDJd46w&usqp=CAU);
+    display: inline-block;
+    background-size: cover;
+}
+
+.ghostPink {
+    width: 50px;
+    height: 50px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ77aVrs6ffdJt7omQ2D3FX6UT5jxzKalBw1w&usqp=CAU);
+    display: inline-block;
+    background-size: cover;
+}
+
+.pacman {
+    width: 50px;
+    height: 50px;
+    background-image:  url(https://lh3.googleusercontent.com/proxy/4DCv-UE3CfMS7FKVyy1J9jjCrl9L8kiAYviHWk6wuGfzPjZ_qgoVm_-Mb3aWwaKguzimDo6R-ULW0uHdXEIgCQV1F2B8sk6nl01kSxkg5AK1z8Nesud3rIXlb4Ked54CF6tSRSVkk_uhq6oRe1AmvQ);
+    display: inline-block;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.ghostHome{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: inline-block;
+}
+
+div {
+    line-height: 0px;
+}
