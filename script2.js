@@ -6,19 +6,19 @@ var pacman = {
 
 var ghostBlue ={
     x:6,
-    y:5,
+    y:7,
 }
 var ghostRed ={
     x:6,
-    y:5,
+    y:7,
 }
-var ghostOrange ={
+var ghostYellow ={
     x:6,
-    y:5,
+    y:7,
 }
 var ghostPink ={
     x:6,
-    y:5,
+    y:7,
 }
 
 var map = [ 
@@ -137,11 +137,49 @@ document.onkeydown = function(event){
     }
     // console.log(map)
 }
-// document.onkeyup = function(event){
-//     if (event.keyCode === 38 || event.keyCode === 40){ 
-//         map[ghostBlue.y+1][ghostBlue.x] !==1;
-//     }
 
-// }
+ function ghostMove(){
+    let randomX;
+    let randomY;
+
+    if (Math.round(Math.random()) === 0){
+        if (Math.round(Math.random()) === 0){
+            randomX = -1
+        } else {
+            randomX = 1
+        }
+        
+        if (map[ghostBlue.y][ghostBlue.x+randomX] !== 1){
+            map[ghostBlue.y][ghostBlue.x] = 3
+            ghostBlue.x += randomX
+            map[ghostBlue.y][ghostBlue.x] = 4
+            console.log(ghostBlue.y,ghostBlue.x);
+            drawWorld();
+        }
+    } else {
+        if (Math.round(Math.random()) === 0){
+            randomY = -1
+        } else {
+            randomY = 1
+        }
+        if (map[ghostBlue.y+randomY][ghostBlue.x] !== 1){
+            map[ghostBlue.y][ghostBlue.x] = 3
+            ghostBlue.y += randomY
+            map[ghostBlue.y][ghostBlue.x] = 4
+            console.log(ghostBlue.y,ghostBlue.x);
+            drawWorld();
+        }
+
+    } 
+
+    
+
+    
+  
+ 
+
+}
+
+setInterval(ghostMove,100)
     
 
