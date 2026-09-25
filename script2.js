@@ -1,7 +1,6 @@
 var pacman = {
     x: 6,
     y: 10,
-    
 }
 
 var ghostBlue ={
